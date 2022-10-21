@@ -1,86 +1,109 @@
 {
-    "intents":[
-        {
-            "tag": "greeting",
-            "patterns": [
-               "halo",
-               "hallo",
-               "hello",
-               "helo",
-               "hai",
-               "hei",
-               "hillow",
-               "hilow",
-               "helow",
-               "hellow",
-               "permisi",
-               "misi",
-               "hi",
-               "hy",
-               "pagi",
-               "morning",
-               "siang",
-               "afternoon",
-               "sore",
-               "malam",
-               "bro",
-               "sis"
-            ],
-            "responses": [
-                "halo! ada yang bisa dibantu?",
-                "halo! mau tau apa nih tentang PMI?"
-            ]
-        },
-        {
-            "tag": "PMI",
-            "patterns": [
-                "PMI itu apa?",
-                "apa itu PMI?",
-                "PMI adalah"
-            ],
-            "responses": [
-                "Palang Merah Indonesia (PMI) adalah sebuah organisasi perhimpunan nasional di Indonesia yang bergerak dalam bidang sosial kemanusiaan."
-            ]
-        },
-        {
-            "tag": "persyaratan_donor",
-            "patterns": [
-                "apa saja persyaratan donor darah?",
-                "syarat donor darah apa?",
-                "syarat donor darah apa sih?",
-            ],
-            "responses": [
-                "Adapun syarat-syarat yang harus dipenuhi pendonor sebagai berikut : Minimal umur 17 tahun 2 minggu, Berat badan minimal 45 kg, Tidak menggunakan narkoba, pencandu alkohol atau memakai tato / tindik, Tidak sedang menderita penyakit seperti jantung, paru-paru, hati, ginjal, kencing manis, penyakit darah, pembekuan darah, epilepsy, kanker, hiv / aids, atau penyakit kulit, 3 hari setelah vaksin dosis pertama, 7 hari setelah vaksin dosis kedua, Donor dapat dilakukan apabila tidak terdapat efek samping vaksin."
-            ]
-        },
-        {
-            "tag": "perhatian",
-            "patterns": [
-                "apa yang harus diperhatikan saat donor darah?"
-            ],
-            "responses": [
-                "Perhatikan juga 3 hal penting yang harus dipersiapkan untuk meminimalisir penolakan Pendonoran : Tidak meminum obat apapun dalam 3 hari sebelum melakukan donor, Selain minum, minum susu dan makan buah, jarak mengonsumsi apapun sebelum donor minimal 3 jam, Malam sebelum melakukan donor darah peserta wajib tidur minimal selama 6 jam."
+  "intents":[
+    {
+      "tag": "greeting",
+      "patterns": [
+        "halo",
+        "hallo",
+        "hello",
+        "helo",
+        "hai",
+        "hei",
+        "hillow",
+        "hilow",
+        "helow",
+        "hellow",
+        "permisi",
+        "misi",
+        "hi",
+        "hy",
+        "pagi",
+        "morning",
+        "siang",
+        "afternoon",
+        "sore",
+        "malam",
+        "bro",
+        "sis"
+      ],
+      "responses": [
+        "halo! ada yang bisa dibantu?",
+        "halo! mau tau apa nih tentang PMI?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "PMI",
+      "patterns": [
+        "PMI itu apa?",
+        "apa itu PMI?",
+        "PMI adalah"
+        ],
+        "responses": [
+          "Palang Merah Indonesia (PMI) adalah sebuah organisasi perhimpunan nasional di Indonesia yang bergerak dalam bidang sosial kemanusiaan."
+        ]
+    },
+    {
+        "tag": "persyaratan_donor",
+        "patterns": [
+          "apa saja persyaratan donor darah?",
+          "syarat donor darah apa?",
+          "syarat donor darah apa sih?"
+          ],
+          "responses": [
+            "Adapun syarat-syarat yang harus dipenuhi pendonor sebagai berikut : Minimal umur 17 tahun 2 minggu, Berat badan minimal 45 kg, Tidak menggunakan narkoba, pencandu alkohol atau memakai tato / tindik, Tidak sedang menderita penyakit seperti jantung, paru-paru, hati, ginjal, kencing manis, penyakit darah, pembekuan darah, epilepsy, kanker, hiv / aids, atau penyakit kulit, 3 hari setelah vaksin dosis pertama, 7 hari setelah vaksin dosis kedua, Donor dapat dilakukan apabila tidak terdapat efek samping vaksin."
+          ]
+      },
+      {
+          "tag": "perhatian",
+          "patterns": [
+            "apa yang harus diperhatikan saat donor darah?"
+           ],
+          "responses": [
+            "Perhatikan juga 3 hal penting yang harus dipersiapkan untuk meminimalisir penolakan Pendonoran : Tidak meminum obat apapun dalam 3 hari sebelum melakukan donor, Selain minum, minum susu dan makan buah, jarak mengonsumsi apapun sebelum donor minimal 3 jam, Malam sebelum melakukan donor darah peserta wajib tidur minimal selama 6 jam."
             ]
         },
         {
             "tag": "keuntungan",
             "patterns": [
-                "keuntungan ikut donor darah apa?",
-                "apa aja sih keuntungan donor darah?",
+              "keuntungan ikut donor darah apa?",
+              "apa aja sih keuntungan donor darah?"
             ],
             "responses": [
-                "Dapat Mendeteksi Penyakit Serius, Menurunkan risiko terkena penyakit jantung dan pembuluh darah, Membantu menurunkan berat badan"
+              "Dapat Mendeteksi Penyakit Serius, Menurunkan risiko terkena penyakit jantung dan pembuluh darah, Membantu menurunkan berat badan"
             ]
         },
         {
             "tag": "efek_samping",
             "patterns": [
-                "efek samping donor darah apa?",
-                "apa saja efek samping donor darah?",
+              "efek samping donor darah apa?",
+              "apa saja efek samping donor darah?"
             ],
             "responses": [
-                "Efek samping donor darah adalah pusing atau sakit kepala ringan, pendarahan di area tusuk, memar dan nyeri serta merasa lemas atau kelelahan. Setelah donor darah Anda disarankan untuk minum lebih banyak, menghindari aktivitas fisik yang berat, dan perbanyak konsumsi makanan kaya zat besi."
+               "Efek samping donor darah adalah pusing atau sakit kepala ringan, pendarahan di area tusuk, memar dan nyeri serta merasa lemas atau kelelahan. Setelah donor darah Anda disarankan untuk minum lebih banyak, menghindari aktivitas fisik yang berat, dan perbanyak konsumsi makanan kaya zat besi."
             ]
         }
     ]
 }
+
