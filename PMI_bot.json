@@ -27,8 +27,11 @@
         "sis"
       ],
       "responses": [
-        "halo! ada yang bisa dibantu?",
-        "halo! mau tau apa nih tentang PMI?"
+        "Halo! ada yang bisa dibantu?",
+        "Hai! CHIT-CHAT di sini. Mau tau informasi tentang apa nih?",
+        "Halo! Saya CHIT_CHAT, salam kenal ya! Mau tau tentang Donor Darah, kan?",
+        "Helo! Ini CHIT_CHAT. Lagi kepo tentang Doroh Darah ya?",
+        "Halo! mau tau apa nih tentang PMI dan Donor Darah?"
       ]
     },
     {
@@ -54,56 +57,136 @@
       ]
     },
     {
-      "tag": "PMI",
+      "tag": "terimakasih",
       "patterns": [
-        "PMI itu apa?",
-        "apa itu PMI?",
-        "PMI adalah"
-        ],
-        "responses": [
-          "Palang Merah Indonesia (PMI) adalah sebuah organisasi perhimpunan nasional di Indonesia yang bergerak dalam bidang sosial kemanusiaan."
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa"
         ]
     },
     {
-        "tag": "persyaratan_donor",
-        "patterns": [
-          "apa saja persyaratan donor darah?",
-          "syarat donor darah apa?",
-          "syarat donor darah apa sih?"
-          ],
-          "responses": [
-            "Adapun syarat-syarat yang harus dipenuhi pendonor sebagai berikut : Minimal umur 17 tahun 2 minggu, Berat badan minimal 45 kg, Tidak menggunakan narkoba, pencandu alkohol atau memakai tato / tindik, Tidak sedang menderita penyakit seperti jantung, paru-paru, hati, ginjal, kencing manis, penyakit darah, pembekuan darah, epilepsy, kanker, hiv / aids, atau penyakit kulit, 3 hari setelah vaksin dosis pertama, 7 hari setelah vaksin dosis kedua, Donor dapat dilakukan apabila tidak terdapat efek samping vaksin."
-          ]
-      },
-      {
-          "tag": "perhatian",
-          "patterns": [
-            "apa yang harus diperhatikan saat donor darah?"
-           ],
-          "responses": [
-            "Perhatikan juga 3 hal penting yang harus dipersiapkan untuk meminimalisir penolakan Pendonoran : Tidak meminum obat apapun dalam 3 hari sebelum melakukan donor, Selain minum, minum susu dan makan buah, jarak mengonsumsi apapun sebelum donor minimal 3 jam, Malam sebelum melakukan donor darah peserta wajib tidur minimal selama 6 jam."
-            ]
-        },
-        {
-            "tag": "keuntungan",
-            "patterns": [
-              "keuntungan ikut donor darah apa?",
-              "apa aja sih keuntungan donor darah?"
-            ],
-            "responses": [
-              "Dapat Mendeteksi Penyakit Serius, Menurunkan risiko terkena penyakit jantung dan pembuluh darah, Membantu menurunkan berat badan"
-            ]
-        },
-        {
-            "tag": "efek_samping",
-            "patterns": [
-              "efek samping donor darah apa?",
-              "apa saja efek samping donor darah?"
-            ],
-            "responses": [
-               "Efek samping donor darah adalah pusing atau sakit kepala ringan, pendarahan di area tusuk, memar dan nyeri serta merasa lemas atau kelelahan. Setelah donor darah Anda disarankan untuk minum lebih banyak, menghindari aktivitas fisik yang berat, dan perbanyak konsumsi makanan kaya zat besi."
-            ]
+      "tag": "chit-chat",
+      "patterns": [
+        "Apa itu CHIT-CHAT?",
+        "Siapa CHIT-CHAT?"
+      ],
+      "responses": [
+        "CHIT-CHAT adalah aplikasi chatbot informasi tentang Donor Darah yang dimulai dari pelaksanaan, persyaratan dan manfaat Donor Darah!",
+        "CHIT-CHAT itu adalah teman informasi kamu tentang Donor Darah!"
+        ]
+    },
+    {
+      "tag": "pencipta_chit-chat",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "CHIT-CHAT, yang buat kamu siapa sih?",
+        "Siapa penciptamu, CHIT-CHAT?"
+      ],
+      "responses": [
+        "CHIT-CHAT diciptakan oleh student dari program AI4StarUp yang memiliki ide kreatif dan semangat team yang luar biasa walaupun banyak rintangan dan drama tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat CHIT-CHAT dari kalangan mahasiswi lho!",
+        "Penciptaku berasal dari sekelompok mahasiswi yang kreatif, sehingga saya bisa aktif saat ini!"
+        ]
+    },
+    {
+      "tag": "penjelasan_PMI_dan_donor_darah",
+      "patterns": [
+        "Apa itu PMI?",
+        "Apa itu Donor Darah?"
+      ],
+      "responses": [
+        "Palang Merah Indonesia (PMI) adalah sebuah organisasi perhimpunan nasional di Indonesia yang bergerak dalam bidang sosial kemanusiaan. Dan bertugas memberikan pelayanan darah sesuai dengan ketentuan peraturan perundang-undangan. Donor darah adalah salah satu aktivitas yang banyak memberikan manfaat tidak hanya pada diri sendiri, namun juga kepada seluruh orang yang membutuhkan."
+        ]
+    },
+    {
+      "tag": "tujuan_donor_darah",
+      "patterns": [
+        "Apa tujuan Donor Darah?"
+      ],
+      "responses": [
+        "Darah yang didonorkan akan sangat bermanfaat bagi orang yang mengalami kondisi seperti kecelakaan, transplantasi organ, kanker, anemia, thalasemia, hingga kanker darah. Dapat Mendeteksi Penyakit Serius, Menurunkan risiko terkena penyakit jantung dan pembuluh darah, Membantu menurunkan berat badan."
+        ]
+    },
+    {
+      "tag": "persyaratan_donor",
+      "patterns": [
+        "apa saja persyaratan Donor Darah?",
+        "syarat Donor Darah apa?",
+        "syarat Donor Darah apa sih?"
+      ],
+      "responses": [
+        "Adapun syarat-syarat yang harus dipenuhi pendonor sebagai berikut : Sehat jasmani dan rohani, Minimal umur 17 tahun 2 minggu sampai dengan 65 tahun, Berat badan minimal 45 kg, Tidak menggunakan narkoba, pencandu alkohol atau memakai tato / tindik, Tidak sedang menderita penyakit seperti jantung, paru-paru, hati, ginjal, kencing manis, penyakit darah, pembekuan darah, epilepsy, kanker, hiv / aids, atau penyakit kulit, 3 hari setelah vaksin dosis pertama, 7 hari setelah vaksin dosis kedua, Donor dapat dilakukan apabila tidak terdapat efek samping vaksin, sistole 100 - 170, diastole 70 - 100, Kadar haemoglobin 12,5g% s/d 17,0g%, Interval donor minimal 12 minggu atau 3 bulan sejak donor darah sebelumnya (maksimal 5 kali dalam 2 tahun)."
+        ]
+    },
+    {
+      "tag": "penyebab_penolakan",
+      "patterns": [
+        "mengapa donor darah ditolak?"
+      ],
+      "responses": [
+        "Usia kurang dari 17 tahun atau lebih dari 65 tahun, Berat badan kurang dari 45 kilogram, Perempuan yang sedang hamil, menyusui atau haid, Tengah mengkonsumsi obat-obatan, Telah menjadi pendonor dalam waktu kurang dari 3 bulan terakhir, Riwayat perjalanan 6 bulan terkahir pergi ke daerah/negara yang sedang terjadi wabah, Pendonor baru saja melakukan cabut gigi, Pendonor baru saja operasi kecil dalam 6 bulan terakhir, Pendonor baru saja operasi besar dalam 12 bulan terakhir, Penderita HIV/AIDS atau ODHA, Menderita tuberculosis, sifilis, dan epilepsi, Ketergantungan obat atau alkohol, Baru menjalani vaksinasi virus hidup, seperti parotitis, measles, tetanus, kolera atau difteri, Baru satu minggu terbebas dari gejala gangguan alergi, Penderita penyakit jantung, paru-paru dan kanker, Darah yang terlalu kental, Tekanan darah rendah dibawah 90/60, Tekanan darah tinggi diatas 140/90 mmHg.6-8."
+        ]
+    },
+    {
+      "tag": "perhatian",
+      "patterns": [
+        "apa yang harus diperhatikan saat donor darah?"
+      ],
+      "responses": [
+        "Perhatikan juga 3 hal penting yang harus dipersiapkan untuk meminimalisir penolakan Pendonoran : Tidak meminum obat apapun dalam 3 hari sebelum melakukan donor, Selain minum, minum susu dan makan buah, jarak mengonsumsi apapun sebelum donor minimal 3 jam, Malam sebelum melakukan donor darah peserta wajib tidur minimal selama 6 jam, Hindari makanan berlemak, seperti fast food atau es krim, yang bisa mengecoh hasil tes darah. Hindari pula konsumsi alkohol menjelang hari-H donor darah. Usahakan Anda cukup tidur pada malam sebelum melakukan prosedur ini. Perbanyak minum air putih atau minuman non-alkoholik lainnya sebelum donor."
+        ]
+    },
+    {
+      "tag": "berapa_banyak",
+      "patterns": [
+        "Berapa banyak darah yang diambil?"
+      ],
+      "responses": [
+        "Jumlah darah yang akan disumbangkan bervariasi, tergantung volume kantong dan berat badan BB) donor. Volume kantong ada yang, 350 cc, 450 cc, 500 cc. Saat ini yang banyak dipakai di Unit Transfusi Darah yang ada di Indonesia adalah volume 350 cc. Volume darah maksimal yang bisa diambil adalah 10,5 cc/ kg BB."
+        ]
+    },
+    {
+      "tag": "berapa_lama",
+      "patterns": [
+        "Berapa lama jangka waktu donor darah?"
+      ],
+      "responses": [
+        "Perlu diketahui, kamu bisa mendonorkan darah maksimal lima kali setahun, dengan jangka waktu minimal 3 bulan,  kalau seseorang yang melakukan donor darah secara rutin dapat menurunkan risiko terkena serangan jantung (infark miokard). Hal ini dapat terjadi karena saat seseorang mendonorkan darahnya, maka ia akan mengurangi simpanan zat besi."
+        ]
+    },
+    {
+      "tag": "jenis_darah",
+      "patterns": [
+        "apa saja jenis darah di Indonesia?"
+      ],
+      "responses": [
+        "Seperti yang sudah diketahui banyak orang, ada empat tipe golongan darah, yaitu A, B, O dan AB. Empat golongan darah tersebut dibedakan berdasarkan ada tidaknya antigen pada sel darah merah dan plasma darah. Selain itu, status rhesus (Rh) darah dibagi menjadi dua, yaitu negatif dan positif, Penentuan golongan darah ini dilakukan berdasarkan jenis antigen yang terdapat di dalam darah, yaitu antigen A dan antigen B, serta antibodi yang dihasilkan untuk menghancurkan antigen tersebut."
+        ]
+    },
+    {
+      "tag": "darah_sehat",
+      "patterns": [
+        "darah yang sehat berwarna apa?"
+      ],
+      "responses": [
+        "Darah yang berwarna merah gelap, seperti pada pembuluh vena, juga normal karena menunjukkan proses peredaran darah yang baik. Artinya, terjadi pelepasan oksigen dari pembuluh darah ke bagian tubuh lain."
+        ]
+    },
+    {
+      "tag": "efek_samping",
+      "patterns": [
+        "efek samping donor darah apa?",
+        "apa saja efek samping donor darah?"
+      ],
+      "responses": [
+        "Efek samping donor darah yang pertama yaitu, memar dan nyeri pada lokasi penyuntikan jarum. Efek ini merupakan hal yang wajar dan akan hilang dengan sendirinya setelah 1 minggu. Apabila Anda mengalami hal ini, maka kompreslah memar dan nyeri untuk meredakannya, Dapat juga pusing atau sakit kepala ringan, pendarahan di area tusuk, memar dan nyeri serta merasa lemas atau kelelahan. Setelah donor darah Anda disarankan untuk minum lebih banyak, menghindari aktivitas fisik yang berat, dan perbanyak konsumsi makanan kaya zat besi."
+        ]
         }
     ]
 }
-
