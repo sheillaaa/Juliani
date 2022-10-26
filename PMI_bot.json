@@ -73,8 +73,7 @@
     {
       "tag": "chit-chat",
       "patterns": [
-        "Apa itu CHIT-CHAT?",
-        "Siapa CHIT-CHAT?"
+        "Apa itu CHIT-CHAT?"
       ],
       "responses": [
         "CHIT-CHAT adalah aplikasi chatbot informasi tentang Donor Darah yang dimulai dari pelaksanaan, persyaratan dan manfaat Donor Darah!",
@@ -85,7 +84,6 @@
       "tag": "pencipta_chit-chat",
       "patterns": [
         "Siapa pembuatmu?",
-        "CHIT-CHAT, yang buat kamu siapa sih?",
         "Siapa penciptamu, CHIT-CHAT?"
       ],
       "responses": [
@@ -115,8 +113,7 @@
       "tag": "persyaratan_donor",
       "patterns": [
         "apa saja persyaratan Donor Darah?",
-        "syarat Donor Darah apa?",
-        "syarat Donor Darah apa sih?"
+        "syarat Donor Darah apa?"
       ],
       "responses": [
         "Adapun syarat-syarat yang harus dipenuhi pendonor sebagai berikut : Sehat jasmani dan rohani, Minimal umur 17 tahun 2 minggu sampai dengan 65 tahun, Berat badan minimal 45 kg, Tidak menggunakan narkoba, pencandu alkohol atau memakai tato / tindik, Tidak sedang menderita penyakit seperti jantung, paru-paru, hati, ginjal, kencing manis, penyakit darah, pembekuan darah, epilepsy, kanker, hiv / aids, atau penyakit kulit, 3 hari setelah vaksin dosis pertama, 7 hari setelah vaksin dosis kedua, Donor dapat dilakukan apabila tidak terdapat efek samping vaksin, sistole 100 - 170, diastole 70 - 100, Kadar haemoglobin 12,5g% s/d 17,0g%, Interval donor minimal 12 minggu atau 3 bulan sejak donor darah sebelumnya (maksimal 5 kali dalam 2 tahun)."
